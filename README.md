@@ -1,5 +1,7 @@
 # required_arg
 
+[![Build Status](https://travis-ci.org/maxjacobson/required_arg.svg?branch=master)](https://travis-ci.org/maxjacobson/required_arg)
+
 Ruby keyword arguments are awesome:
 
 ```ruby

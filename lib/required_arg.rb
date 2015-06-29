@@ -1,5 +1,8 @@
 require "required_arg/version"
 
-module RequiredArg
-  # Your code goes here...
+class RequiredArg
+  def initialize(name = nil)
+    msg = name.nil? ? "missing keyword" : "missing keyword: #{name}"
+    raise ArgumentError, msg
+  end
 end
